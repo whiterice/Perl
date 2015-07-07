@@ -8,16 +8,19 @@ if ( $b_m_i < 18.5 )
 {
 	print "Underwight\n";
 }
-elsif ( $b_m_i < 25 )
+elsif ( $b_m_i >= 18.5 &&  $b_m_i < 25 ) 
 {
 	print "Normal\n";
 }
-elsif ( $b_m_i <30 )
+elsif ( $b_m_i >=25 && $b_m_i <30 )
 {
 	print "Overweight\n";
 }
+elsif ( $b_m_i >= 30 )
+{
+	print "Obese\n";
+}
 else
 {
-print "Obese\n";
+	print "This Shouldn't Happen!!!!!\n";
 }
-
