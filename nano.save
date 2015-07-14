@@ -1,0 +1,14 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+
+my $date	= localtime();
+my $ants	= 47_000;
+my $fleas	= 240_000;
+my $beetles	= 520;
+my $fruit_flies	= 1_500_000;
+
+print "Welcome to Echidna Eric;s Insect Emporium]n";
+print "\n";
+print "This is the inventory stock report for $date\n";
+print "-------------------------------------------
