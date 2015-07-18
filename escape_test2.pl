@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-my $mail_message = <<'END_OF_TEXT';
+my $mail_message = <<"END_OF_TEXT";
 From: Dutiful Developer <programmer@example.com>
 To: Masterful Manager <boss@example.com>
 Subject: Code Finished
@@ -21,5 +21,3 @@ my $dedication = "This program ($0) is dedicated to our dear leader, \L\u$first_
 $first_name = 'passionate';
 $last_name = 'president';
 print $dedication;
-
-print $mail_message;

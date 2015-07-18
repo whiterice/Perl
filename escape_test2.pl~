@@ -21,5 +21,3 @@ my $dedication = "This program ($0) is dedicated to our dear leader, \L\u$first_
 $first_name = 'passionate';
 $last_name = 'president';
 print $dedication;
-
-print $mail_message;
