@@ -2,5 +2,5 @@
 use strict;
 use warnings;
 
-print join '*', 'a', 'b', 'c', '\n';
+print join ('*', 'a', 'b', 'c'), "\n";
 
